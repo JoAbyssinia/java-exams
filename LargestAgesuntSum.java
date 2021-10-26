@@ -6,7 +6,7 @@ public class LargestAgesuntSum {
       System.out.println(reuslt);
    }
 
-   private static int largestAgesuntSum(int[] a ){
+   private static int largestAdjecentSum(int[] a ){
 
       int greatSum =Integer.MIN_VALUE;
       for (int i = 0; i < a.length-1; i++) {
